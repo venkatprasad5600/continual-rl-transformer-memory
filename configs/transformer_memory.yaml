@@ -1,0 +1,35 @@
+
+
+
+experiment_name: transformer_memory
+model_type: transformer_memory
+
+envs:
+  - MiniGrid-Empty-6x6-v0
+  - MiniGrid-DoorKey-6x6-v0
+  - MiniGrid-FourRooms-v0
+
+seeds:
+  - 0
+  - 1
+
+training:
+  timesteps_per_task: 20000
+  eval_episodes: 10
+
+  # PPO core
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  update_epochs: 4
+  batch_size: 64
+  rollout_length: 128
+
+  # Loss balance
+  value_coef: 0.5
+  entropy_coef: 0.01
+
+  # Memory settings
+  memory_capacity: 2000
+  replay_batch_size: 128

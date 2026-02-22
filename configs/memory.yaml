@@ -1,0 +1,25 @@
+
+envs:
+  - MiniGrid-Empty-6x6-v0
+  - MiniGrid-DoorKey-6x6-v0
+  - MiniGrid-LavaGapS5-v0
+
+seeds:
+  - 0
+  - 1
+
+training:
+  timesteps_per_task: 30000
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  update_epochs: 4
+  batch_size: 64
+  rollout_length: 128
+  value_coef: 0.5
+  entropy_coef: 0.01
+
+  # Memory settings
+  replay_batch_size: 32
+  memory_beta: 0.1

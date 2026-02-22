@@ -1,0 +1,37 @@
+experiment_name: large_mlp
+model_type: large_mlp
+
+envs:
+  - MiniGrid-Empty-6x6-v0
+  - MiniGrid-DoorKey-6x6-v0
+  - MiniGrid-Empty-Random-6x6-v0
+
+algorithm: ppo
+
+training:
+  timesteps_per_task: 250000
+  rollout_length: 128
+  total_tasks: 3
+  learning_rate: 0.0003
+  gamma: 0.99
+  gae_lambda: 0.95
+  clip_range: 0.2
+  batch_size: 64
+  update_epochs: 4
+  eval_episodes: 10
+
+memory:
+  enabled: false
+  capacity: 0
+
+transformer:
+  enabled: false
+  d_model: 128
+  n_heads: 4
+  n_layers: 2
+
+seeds:
+  - 0
+  - 1
+
+device: cuda
