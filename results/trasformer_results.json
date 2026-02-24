@@ -1,0 +1,8 @@
+{
+  { "model":"ppo_large_mlp", "seed":0, "after_task":0, "eval_task":0, "score":0.9643 }, 
+  { "model":"ppo_large_mlp", "seed":0, "after_task":1, "eval_task":0, "score":0.8651 }, 
+  { "model":"ppo_large_mlp", "seed":0, "after_task":1, "eval_task":1, "score":0.9524 }, 
+  { "model":"ppo_large_mlp", "seed":0, "after_task":2, "eval_task":0, "score":0.8127 }, 
+  { "model":"ppo_large_mlp", "seed":0, "after_task":2, "eval_task":1, "score":0.7493 }, 
+  {"model":"ppo_large_mlp", "seed":0, "after_task":2, "eval_task":2, "score":0.9894 }
+}
