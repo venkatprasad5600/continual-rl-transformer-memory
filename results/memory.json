@@ -1,0 +1,8 @@
+{
+{ "model":"ppo_memory", "seed":0, "after_task":0, "eval_task":0, "score":0.9629 }, 
+{ "model":"ppo_memory", "seed":0, "after_task":1, "eval_task":0, "score":0.9014 }, 
+{ "model":"ppo_memory", "seed":0, "after_task":1, "eval_task":1, "score":0.9687 }, 
+{ "model":"ppo_memory", "seed":0, "after_task":2, "eval_task":0, "score":0.8846 }, 
+{ "model":"ppo_memory", "seed":0, "after_task":2, "eval_task":1, "score":0.8421 }, 
+{ "model":"ppo_memory", "seed":0, "after_task":2, "eval_task":2, "score":0.9935 }
+}
