@@ -1,0 +1,7 @@
+{{ "model":"ppo_transformer_memory", "seed":0, "after_task":0, "eval_task":0, "score":0.9684 }, 
+{ "model":"ppo_transformer_memory", "seed":0, "after_task":1, "eval_task":0, "score":0.9258 }, 
+{ "model":"ppo_transformer_memory", "seed":0, "after_task":1, "eval_task":1, "score":0.9743 }, 
+{ "model":"ppo_transformer_memory", "seed":0, "after_task":2, "eval_task":0, "score":0.9127 }, 
+{ "model":"ppo_transformer_memory", "seed":0, "after_task":2, "eval_task":1, "score":0.8894 }, 
+{ "model":"ppo_transformer_memory", "seed":0, "after_task":2, "eval_task":2, "score":0.9962 } 
+}
