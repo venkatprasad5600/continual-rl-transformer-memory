@@ -56,7 +56,8 @@ Clean experimental reproducibility
 Python
 PyTorch
 Gymnasium
-
 MiniGrid
-
 YAML Config-based experiment control
+
+# TO Run the Project:
+!python main.py --config configs/transformer_memory.yaml
